@@ -1,0 +1,38 @@
+.background    { background: rgb(10, 7, 65);
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: rgb(78, 201, 215); }
+.wall          { background: green;   }
+.floater       { background: rgb(92, 71, 20);}
+
+.actor  { position: absolute;  }
+.star    { background-image: url("images/star.gif");
+            background-size:13px 13px;}
+.egg   { background-image: url("images/Egg_sprite.jpg");
+          background-size: 14px 14px;}
+.bug   { background: #66ff33;}
+.portal { background: rgb(yellow);}
+.player { background-image: url("images/chicken_sprite_right.jpg");
+          background-size: 30px 30px;}
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.left .player {
+  background-image: url("images/chicken_sprite_left.jpg");
+}
+.right .player {
+  background-image: url("images/chicken_sprite_right.jpg");
+}
+
+.lost .player {
+  background-img: url("images/");
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
